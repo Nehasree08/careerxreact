@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/careerxreact/static/css/main.e6c13ad2.css",
+    "main.js": "/careerxreact/static/js/main.c5c5c373.js",
+    "index.html": "/careerxreact/index.html",
+    "main.e6c13ad2.css.map": "/careerxreact/static/css/main.e6c13ad2.css.map",
+    "main.c5c5c373.js.map": "/careerxreact/static/js/main.c5c5c373.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c5c5c373.js"
+  ]
+}
