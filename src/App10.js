@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import Home from './Home'
+
 
 export default function App10() {
     const[ email , setEmail ]= useState(0)
@@ -7,7 +9,7 @@ export default function App10() {
     const [result , setResult]= useState()
     const validate =()=>{
         if(email==="John@gmail.com" && password==="12345")
-            setResult("welcome ")
+            setResult(<Home/>)
         else{
             setResult("Access Denied")
         }
