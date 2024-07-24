@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App13 from './App13';
-import App10 from './App10';
-// import App3 from "./App3"
-// import App5 from "./App5"
-// import Login from './Login';
-// import App6 from './App6';
-// import Main1 from './Main1';
+import App38 from './App38';
+// import { AppContextProvider } from './context/appContext.js';
+
 
 // const sqrfunction = (n) =>{
 //     return n* n;
@@ -30,4 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // <App17 val={8} fn={sqrfunction}/>
 // </>
 // );
-root.render(<App10/>);
+// root.render(<App26>Hello World</App26>); // sending jsx as a property i.e hello world , app26 will have access to this
+
+// root.render( <AppContextProvider> <App /></AppContextProvider>);
+root.render(<App38/>);
